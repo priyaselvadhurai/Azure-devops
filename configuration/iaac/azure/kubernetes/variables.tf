@@ -1,6 +1,5 @@
 variable client_id {}
 variable client_secret {}
-variable tenant_id {}
 variable ssh_public_key {}
 
 variable environment {
@@ -12,7 +11,7 @@ variable location {
 }
 
 variable node_count {
-  default = 3
+  default = 2
 }
 
 
